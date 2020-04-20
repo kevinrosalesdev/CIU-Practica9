@@ -1,3 +1,8 @@
+//import gifAnimation.*;
+
+//GifMaker ficherogif;
+//int frameCounter;
+
 PShader shader;
 PImage[] images;
 String[] paintingTitles;
@@ -7,8 +12,13 @@ PFont font;
 boolean showControlsMenu, showValuesPanel, isLeftArrowPressed, isUpArrowPressed, isDownArrowPressed, isRightArrowPressed;
 
 void setup(){
-  fullScreen(P3D, 1);
+  fullScreen(P3D);
   //size(1200, 750, P2D);
+  //ficherogif = new GifMaker(this, "animation.gif");
+  //ficherogif.setRepeat(0);
+  //ficherogif.addFrame();
+  //frameCounter = 0;
+  
   direction = 1;
   offset = 1;
   movement = 0;
@@ -29,6 +39,11 @@ void setup(){
 }
 
 void draw(){
+  //frameCounter++;
+  //if(frameCounter == 10){
+  //  ficherogif.addFrame();
+  //  frameCounter = 0;
+  //}
   if (movement == 0 && direction > 8) direction = 1;
   else if (movement == 1 && direction < 1) direction = 8;
   image(images[imageIndex], 0, 0, width, height);
@@ -55,7 +70,7 @@ void drawMenu(){
     textAlign(LEFT);
     text("A/D: cambiar imagen", 0.005*width, 0.05*height);
     text("Flecha arriba/abajo: cambiar umbral de luminosidad (entre mayor sea el umbral, menor será el área afectada por el shader)", 0.005*width, 0.08*height);
-    text("Flecha izquierda/derecha: cambiar distancia entre texels (entre mayor sea la distancia, más borroso será el efecto provocado por el shader)", 0.005*width, 0.11*height);
+    text("Flecha izquierda/derecha: cambiar distancia entre píxeles (entre mayor sea la distancia, más borroso será el efecto provocado por el shader)", 0.005*width, 0.11*height);
     text("ENTER: cambiar efecto de movimiento (sentido de las agujas del reloj, sentido contrario a las agujas del reloj o aleatorio)", 0.005*width, 0.14*height);
     text("M: mostrar/ocultar este menú", 0.005*width, 0.17*height);
     text("N: mostrar/ocultar panel de valores usados actualmente", 0.005*width, 0.2*height);
@@ -97,7 +112,7 @@ void drawMenu(){
     textAlign(LEFT);
     text("Obra actual: " + paintingTitles[imageIndex], 0.655*width, 0.9*height);
     text("Umbral de luminosidad: " + nf(threshold, 1, 2), 0.655*width, 0.93*height);
-    text("Distancia entre texels: " + offset, 0.655*width, 0.96*height);
+    text("Distancia entre píxeles: " + offset, 0.655*width, 0.96*height);
     text("Efecto de movimiento: " + movementEffect, 0.655*width, 0.99*height);
     textFont(font, 20*0.00075*width);
     textAlign(CENTER);
