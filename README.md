@@ -18,10 +18,10 @@ Kevin David Rosales Santana - <kevin.rosales101@alu.ulpgc.es>
    
    3.2 [Decisiones en el desarrollo](#32-decisiones-en-el-desarrollo)
    
-      - 3.2.1 [Filtrado de *píxel*](#321-filtrado-de-pixel)
-      - 3.2.2 [Desplazamiento de *píxel*](#322-desplazamiento-de-texel)
-      - 3.2.3 [Rotación de *píxel* usando un *kernel*](#323-rotación-de-texel-usando-un-kernel)
-      - 3.2.4 [Interfaz gráfica](#323-interfaz-gráfica)
+      - 3.2.1 [Filtrado de *píxel*](#321-filtrado-de-píxel)
+      - 3.2.2 [Desplazamiento de *píxel*](#322-desplazamiento-de-píxel)
+      - 3.2.3 [Rotación de *píxel* usando un *kernel*](#323-rotación-de-píxel-usando-un-kernel)
+      - 3.2.4 [Interfaz gráfica](#324-interfaz-gráfica)
    
 4. [Conclusión](#4-conclusión)
 5. [Ejecución del Proyecto](#5-ejecución-del-proyecto)
@@ -39,6 +39,7 @@ En este repositorio se tiene la implementación un prototipo que cumple dichos r
    <img src="Practica9/media/animation.gif" alt="muestra"></img>
    <p>Figura 1: Muestra de resultado</p>
 </div>
+
 **Nota**: el resultado real no es tan oscuro como se muestra en la captura de la *Figura 1*.
 
 ### 3. Descripción del trabajo realizado
