@@ -194,13 +194,13 @@ Por último, se debe recalcar que gracias a esta novena práctica de *Creando In
 
 Para ejecutar este proyecto, es necesario:
 
-- Tener instalado [Processing (Referencia 3)](https://github.com/kevinrosalesdev/CIU-Practica7#6-referencias-y-herramientas-utilizadas)
+- Tener instalado [Processing (Referencia 3)](#6-referencias-y-herramientas-utilizadas)
 
 Para ejecutar el proyecto, tan solo se debe abrir el fichero [Practica9.pde](Practica9/Practica9.pde) y darle al botón de ejecutar.
 
 ### 6. Referencias y herramientas utilizadas
 
-- [1] Modesto Fernando Castrillón Santana, José Daniel Hernández Sosa. [Creando Interfaces de Usuario. Guion de Prácticas.](https://cv-aep.ulpgc.es/cv/ulpgctp20/pluginfile.php/126724/mod_resource/content/25/CIU_Pr_cticas.pdf)
+- [1] Modesto Fernando Castrillón Santana, José Daniel Hernández Sosa. [Creando Interfaces de Usuario. Guion de Prácticas.](https://cv-aep.ulpgc.es/cv/ulpgctp20/pluginfile.php/126724/mod_resource/content/35/CIU_Pr_cticas%20-1920.pdf)
 - [2] Processing Foundation. [Processing Reference.](https://processing.org/reference/)
 - [3] Processing Foundation. [Processing Download.](https://processing.org/download/)
 - [4] Extrapixel. [GifAnimation Processing Library.](https://github.com/extrapixel/gif-animation)
